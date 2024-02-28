@@ -1,12 +1,12 @@
 public class ToyotaSalon {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         Car car = new ToyotaCamry();
         car = new CarSpoiler(car);
         car = new CarSticker(car);
         car = new CarAndroid(car);
 
-        System.out.println(car.getTypeToyoto() + " $" + car.cost());
+        System.out.println(car.getTypeToyoto() + ", price: " + car.cost() + "$");
 
 
 
@@ -16,7 +16,7 @@ public class ToyotaSalon {
         car2 = new CarSticker(car2);
         car2 = new CarAndroid(car2);
 
-        System.out.println(car2.getTypeToyoto() + " $" + car2.cost());
+        System.out.println(car2.getTypeToyoto() + ", price: " + car2.cost() + "$");
 
 
 
@@ -24,7 +24,7 @@ public class ToyotaSalon {
         car3 = new CarSpoiler(car3);
         car3 = new CarAndroid(car3);
 
-        System.out.println(car3.getTypeToyoto() + " $" + car3.cost());
+        System.out.println(car3.getTypeToyoto() + ", price: " + car3.cost() + "$");
 
     }
 }
