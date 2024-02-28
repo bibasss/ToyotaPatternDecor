@@ -1,5 +1,5 @@
 public abstract class Car {
-    String typeToyoto = "Unknown Beverage";
+    String typeToyoto = "Some kind of Toyota car";
 
     public String getTypeToyoto() {
         return typeToyoto;
