@@ -1,8 +1,8 @@
 public abstract class Car {
-    String description = "Unknown Beverage";
+    String typeToyoto = "Unknown Beverage";
 
-    public String getDescription() {
-        return description;
+    public String getTypeToyoto() {
+        return typeToyoto;
     }
     public abstract double cost();
 }

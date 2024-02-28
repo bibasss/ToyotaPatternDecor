@@ -1,7 +1,7 @@
 public class ToyotaCamry extends Car {
 
     public ToyotaCamry() {
-        description = "Tayota: Camry";
+        typeToyoto = "Tayota: Camry";
     }
 
     public double cost() {

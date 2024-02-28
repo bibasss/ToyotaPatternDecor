@@ -1,15 +1,30 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class TayotaSalon {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+public class ToyotaSalon {
+    public static void main(String args[]) {
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        Car car = new ToyotaCamry();
+        car = new CarSpoiler(car);
+        car = new CarSticker(car);
+        car = new CarAndroid(car);
+
+        System.out.println(car.getTypeToyoto() + " $" + car.cost());
+
+
+
+        Car car2 = new ToyotaSupra();
+        car2 = new CarColor(car2);
+        car2 = new CarSpoiler(car2);
+        car2 = new CarSticker(car2);
+        car2 = new CarAndroid(car2);
+
+        System.out.println(car2.getTypeToyoto() + " $" + car2.cost());
+
+
+
+        Car car3 = new ToyotaCorolla();
+        car3 = new CarSpoiler(car3);
+        car3 = new CarAndroid(car3);
+
+        System.out.println(car3.getTypeToyoto() + " $" + car3.cost());
+
     }
 }

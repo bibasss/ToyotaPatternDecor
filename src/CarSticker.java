@@ -3,8 +3,8 @@ public class CarSticker extends Kelbeti {
     public CarSticker(Car car) {
         this.car = car;
     }
-    public String getDescription() {
-        return car.getDescription() + ", with cool sticker";
+    public String getTypeToyoto() {
+        return car.getTypeToyoto() + ", with cool sticker";
     }
     public double cost() {
         return 50 + car.cost();

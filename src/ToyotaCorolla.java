@@ -1,7 +1,7 @@
 public class ToyotaCorolla extends Car {
 
     public ToyotaCorolla() {
-        description = "Tayota: Corolla";
+        typeToyoto = "Tayota: Corolla";
     }
 
     public double cost() {
